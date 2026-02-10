@@ -38,7 +38,6 @@ class CalibrationViewModel: ObservableObject {
             self.baseline = nil
             self.currentMode = .calibrate
             UserDefaults.standard.removeObject(forKey: "saved_baseline")
-            print("Demo state reset: Baseline cleared.")
         }
     
     func toggleAction() {
@@ -138,7 +137,6 @@ class CalibrationViewModel: ObservableObject {
                 
             } catch {
                 print("Parsing Failed: \(error)")
-                print("Content: \(jsonString)")
             }
         }
     }

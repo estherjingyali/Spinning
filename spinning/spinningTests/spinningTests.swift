@@ -2,7 +2,7 @@
 //  spinningTests.swift
 //  spinningTests
 //
-//  Created by Jingya Li on 2/5/26.
+//  Created by Estelle on 2/5/26.
 //
 
 import Testing
